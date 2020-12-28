@@ -3,8 +3,8 @@
 
     // globals 
 
-    $a = 10;
-    $array = [2,5,6,8];
+    // $a = 10;
+    // $array = [2,5,6,8];
 
     // dd($array);
     
@@ -21,7 +21,7 @@
     // var_dump($_SERVER['REQUEST_URI']);
     // var_dump($_SERVER);
 
-    var_dump ("$_REQUEST");
+    var_dump ($_REQUEST);
 
 
 
