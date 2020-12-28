@@ -21,9 +21,14 @@
     // var_dump($_SERVER['REQUEST_URI']);
     // var_dump($_SERVER);
 
-    var_dump ($_REQUEST);
+    // var_dump ($_REQUEST["name"]);
 
+    // var_dump($_POST)
+    var_dump($_GET);
+session_start();
+$_SESSION['name'] = 'sulaiman biswas';
 
+var_dump($_SESSION);
 
 
 
