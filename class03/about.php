@@ -50,16 +50,40 @@ $arr[] = 258;
 $arr[] = 456;
 $arr[7] = 258;
 
-var_dump($arr);
+// var_dump($arr);
 
-var_dump(array_filter($arr));
-var_dump(array_values(array_filter($arr)));
-var_dump(array_unique($arr));
-var_dump(array_search(258,$arr));
-var_dump(array_reverse($arr));
-var_dump(array_pop($arr));
-var_dump(array_shift($arr));
-var_dump($arr,array_splice($arr,5,1))
+// var_dump(array_filter($arr));
+// var_dump(array_values(array_filter($arr)));
+// var_dump(array_unique($arr));
+// var_dump(array_search(258,$arr));
+// var_dump(array_reverse($arr));
+// var_dump(array_pop($arr));
+// var_dump(array_shift($arr));
+// var_dump(array_splice($arr,5,1));
+// var_dump(array_splice($arr,2,));
+// var_dump(array_sum($arr));
+
+
 
 // dd($arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ?>
