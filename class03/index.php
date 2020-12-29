@@ -3,8 +3,8 @@
 
     // globals 
 
-    $a = 10;
-    $array = [2,5,6,8];
+    // $a = 10;
+    // $array = [2,5,6,8];
 
     // dd($array);
     
@@ -20,7 +20,7 @@
     // echo "<pre>";
     // var_dump($_SERVER['REQUEST_URI']);
     // var_dump($_SERVER);
-    var_dump($_request);
+    // var_dump($_request);
 
     // var_dump ($_REQUEST["name"]);
 
@@ -30,9 +30,9 @@
 
     // session_start();
     // $_SESSION['name'] = 'sulaiman biswas';
-
+        // session_unset();
     // var_dump($_SESSION);
-
+    // session_destroy();
 
 
 
