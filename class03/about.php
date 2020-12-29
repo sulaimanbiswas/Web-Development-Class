@@ -1,4 +1,7 @@
 <?php
+
+// require__DIR__ .'/../vendor/autoload.php';
+
 echo "about";
 echo "<pre>";
 // var_dump($_SERVER);
@@ -38,8 +41,18 @@ echo $name;
 
 $arr = array();
 array_push($arr,34);
+array_push($arr,null);
+array_push($arr,5);
+
+$arr[] = 356;
+$arr[] = 75343;
+$arr[] = null;
+$arr[] = 456;
+$arr[7] = null;
 
 var_dump($arr);
 
+var_dump(arry_values(array_filter($arr)));
 
+// dd($arr);
 ?>

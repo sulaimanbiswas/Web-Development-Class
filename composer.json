@@ -1,11 +1,10 @@
 {
-    "name": "web/class",
-    "require": {
-        "wanfeiyy/dd": "^1.0"
-    },
-    "autoload":{
-        "psr-4": {
-            "\\":"/class03"
+    "name": "sulaiman/web",
+    "authors": [
+        {
+            "name": "sulaimanbiswas",
+            "email": "sulaimanbiswasbd@gmail.com"
         }
-    }
+    ],
+    "require": {}
 }
