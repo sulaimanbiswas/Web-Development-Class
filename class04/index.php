@@ -26,8 +26,7 @@ echo"<pre>";
 // var_dump($student_info);
 // var_dump($student_info2);
 
-class UserInfo
-{
+class UserInfo{
     public $name;
     public $phone;
     public $email;
