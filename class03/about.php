@@ -45,14 +45,21 @@ array_push($arr,null);
 array_push($arr,5);
 
 $arr[] = 356;
-$arr[] = 75343;
-$arr[] = null;
+$arr[] = 258;
+$arr[] = 258;
 $arr[] = 456;
-$arr[7] = null;
+$arr[7] = 258;
 
 var_dump($arr);
 
-var_dump(arry_values(array_filter($arr)));
+var_dump(array_filter($arr));
+var_dump(array_values(array_filter($arr)));
+var_dump(array_unique($arr));
+var_dump(array_search(258,$arr));
+var_dump(array_reverse($arr));
+var_dump(array_pop($arr));
+var_dump(array_shift($arr));
+var_dump($arr,array_splice($arr,5,1))
 
 // dd($arr);
 ?>
