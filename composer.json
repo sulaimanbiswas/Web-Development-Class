@@ -6,5 +6,10 @@
             "email": "sulaimanbiswasbd@gmail.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "class04\\":"./class04"
+        }
+    }
 }

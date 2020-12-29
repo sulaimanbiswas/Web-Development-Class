@@ -63,7 +63,9 @@ $arr[7] = 258;
 // var_dump(array_splice($arr,2,));
 // var_dump(array_sum($arr));
 
-
+sort($arr);
+rsort($arr);
+// var_dump($arr,sort($arr));
 
 // dd($arr);
 
