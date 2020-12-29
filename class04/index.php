@@ -2,17 +2,17 @@
 require '../vendor/autoload.php';
 echo"<pre>";
 
-$student = [
-    name => 'sulaiman',
-    phone => '0147859625',
-    adress => [
+$student_info = [
+    'name' => 'sulaiman',
+    'phone' => '0147859625',
+    'adress' => [
         'permanent' => 'meherpur'
     ],
-    designation => 'student',
+    'designation' => 'student',
 
 ];
 
-dd($student);
+dd($student_info);
 
 
 
