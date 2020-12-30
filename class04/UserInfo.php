@@ -85,17 +85,19 @@ $user1->set_date('03-10-1990');
 
 
 
+// var_dump(
+//     $user1
+// );
 
 
 
-
-var_dump(
-    user1,
-    // UserInfo::sum(10,20),
-    // $user1->sum(30,20),
-    // $user1->sum($user1->math_num,$user1->eng_num),
-    UserInfo::$school_name
-);
+// var_dump(
+//     user1,
+//     // UserInfo::sum(10,20),
+//     // $user1->sum(30,20),
+//     // $user1->sum($user1->math_num,$user1->eng_num),
+//     UserInfo::$school_name
+// );
 
 
 
