@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '714e5f4440db3fff9594ce2d6f931909fd14cf55',
+    'reference' => '9c5ae70776b8fc18e0806a14b2565cb18dacc0d6',
     'name' => 'sulaiman/web',
   ),
   'versions' => 
@@ -41,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '714e5f4440db3fff9594ce2d6f931909fd14cf55',
+      'reference' => '9c5ae70776b8fc18e0806a14b2565cb18dacc0d6',
     ),
   ),
 );
