@@ -49,20 +49,26 @@ class UserInfo{
     public function set_date($date) {
         $this ->date = $date;
     }
-    public function get_date($date) {
-        $this ->date = $date;
+    public function get_date() {
+        return $this ->date;
+    }
+
+
+    public static function sum($a, $b) {
+        return $a + $b;
     }
 
 }
 
 $user1 = new UserInfo('sulaiman', '01745360890', 'sulaimanbiswasbd@gmail.com');
 $user1 ->l_name = 'biswas';
-$user1 ->set_date = '25-65-25';
+$user1->set_date("586-98-58");
+
 
 // $user1 -> name ='sulaimanbiswas';
 // $user1 -> phone ='014745630890';
 
-var_dump($user1);
+// var_dump($user1,$user1->get_date());
 
 
 
