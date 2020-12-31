@@ -1,4 +1,5 @@
-<?php
+<?php 
+// namespace class04;
 // require '../vendor/autoload.php';
 echo"<pre>";
 

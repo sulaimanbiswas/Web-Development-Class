@@ -1,4 +1,5 @@
 <?php
+    // use class04\UserInfo;
 
 include './UserInfo.php';
 

@@ -1,17 +1,25 @@
 <?php
-
+    // use class04\UserInfo;
 include './UserInfo.php';
+ 
 
-class Teacher extends UserInfo{
+class Student extends UserInfo{
     public $deperment;
     public $roll;
     public $reg;
+
+    public function __construct($deperment, $roll, $reg) {
+        UserInfo::__construct('sulaiman','0158795453','sulaiman@gmail.com');
+        $this->deperment = $deperment;
+        $this->roll = $roll;
+        $this->reg = $reg;
+    }
 }
 
-$student = new Student('sulaiman','25648841','student1@gamil.com');
+$student1 = new Student('BBA','258965','10205689');
 
 
-var_dump($student);
+var_dump($student1);
 
 
 
